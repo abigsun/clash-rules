@@ -1,0 +1,43 @@
+#覆写自定义规则
+#直连
+#输入规则
+#开头空2格
+  - DOMAIN-KEYWORD,ourbits,DIRECT
+  - DOMAIN-KEYWORD,ourhelp,DIRECT
+  - DOMAIN-KEYWORD,m-team,DIRECT
+  - DOMAIN-KEYWORD,totheglory,DIRECT
+  - DOMAIN-KEYWORD,btschool,DIRECT
+  - DOMAIN-KEYWORD,pttime,DIRECT
+  - DOMAIN-KEYWORD,si-qi,DIRECT
+  - DOMAIN-KEYWORD,luckpt,DIRECT
+  - DOMAIN-KEYWORD,ptskit,DIRECT
+  - DOMAIN-KEYWORD,hdfans,DIRECT
+  - DOMAIN-KEYWORD,milkie.cc,DIRECT
+  - DOMAIN-KEYWORD,lesbians4u,DIRECT
+  - DOMAIN-KEYWORD,exoticaz,DIRECT
+  - DOMAIN-KEYWORD,xiuxitong,DIRECT
+  - DOMAIN-KEYWORD,pc528,DIRECT
+  - DOMAIN-KEYWORD,apphot,DIRECT
+
+#走TW
+#交易所
+#开头空2格
+# > Binane,TW
+  - DOMAIN-SUFFIX,binance.com,TW
+  - DOMAIN-SUFFIX,binance.info,TW
+  - DOMAIN-SUFFIX,bnbstatic.com,TW
+  - DOMAIN-SUFFIX,bntrace.com,TW
+  - DOMAIN-SUFFIX,yingwangtech.cloud,TW
+# > OKX,TW
+  - DOMAIN-SUFFIX,okx.com,TW
+  - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net,TW
+# > Bybit,TW
+  - DOMAIN-SUFFIX,byabcde.com,TW
+  - DOMAIN-SUFFIX,bybdc6.com,TW
+  - DOMAIN-SUFFIX,bybit.com,TW
+  - DOMAIN-SUFFIX,bybitglobal.com,TW
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,TW
+# > bitget,TW
+  - DOMAIN-SUFFIX,bitget.com,TW
+# > neverless,TW
+  - DOMAIN-SUFFIX,neverless.com,TW
