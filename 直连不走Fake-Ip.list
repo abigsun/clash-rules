@@ -1,3 +1,4 @@
+# openclash添加项
 +.ourbits.*
 +.ourhelp.*
 +.m-team.*
@@ -16,3 +17,79 @@
 +.xiuxitong.*
 +.pc528.*
 +.apphot.*
+#游戏
+*.mihoyo.com
+*.yuanshen.com
+*.hoyoverse.com
+*.honkaiimpact3.com
+*.genshin.mihoyo.com
+*.honkai3rd.com
+*.honkaiimpact3rd.com
+*.mhyapi.com
+*.garena.com
+*.lol.qq.com
+*.pvp.qq.com
+*.dnf.qq.com
+*.tencent.com
+
+
+
+# clash verge添加项
+prepend-rules:
+  - DOMAIN-KEYWORD,ourbits,DIRECT
+  - DOMAIN-KEYWORD,ourhelp,DIRECT
+  - DOMAIN-KEYWORD,m-team,DIRECT
+  - DOMAIN-KEYWORD,totheglory,DIRECT
+  - DOMAIN-KEYWORD,btschool,DIRECT
+  - DOMAIN-KEYWORD,pttime,DIRECT
+  - DOMAIN-KEYWORD,si-qi,DIRECT
+  - DOMAIN-KEYWORD,luckpt,DIRECT
+  - DOMAIN-KEYWORD,ptskit,DIRECT
+  - DOMAIN-KEYWORD,cccseal,DIRECT
+  - DOMAIN-KEYWORD,oldchu,DIRECT
+  - DOMAIN-KEYWORD,hdfans,DIRECT
+  - DOMAIN-KEYWORD,milkie.cc,DIRECT
+  - DOMAIN-KEYWORD,lesbians4u,DIRECT
+  - DOMAIN-KEYWORD,exoticaz,DIRECT
+  - DOMAIN-KEYWORD,xiuxitong,DIRECT
+  - DOMAIN-KEYWORD,pc528,DIRECT
+  - DOMAIN-KEYWORD,apphot,DIRECT
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    # 1. 常用分流：让国内常见域名不走 fake-ip（避免某些国内App/网站出问题）
+    - '+.lan'
+    - '+.local'
+    - '+.ourbits.*'
+    - '+.ourhelp.*'
+    - '+.m-team.*'
+    - '+.totheglory.*'
+    - '+.btschool.*'
+    - '+.pttime.*'
+    - '+.si-qi.*'
+    - '+.luckpt.*'
+    - '+.ptskit.*'
+    - '+.cccseal.*'
+    - '+.oldchu.*'
+    - '+.hdfans.*'
+    - '+.milkie.cc'
+    - '+.lesbians4u.*'
+    - '+.exoticaz.*'
+    - '+.xiuxitong.*'
+    - '+.pc528.*'
+    - '+.apphot.*'
+    - '+.mihoyo.com'
+    - '+.mihoyo.cn'
+    - '+.hoyoverse.com'
+    - '+.yuanshen.com'
+    - '+.bh3.com'
+    - '+.starrails.com'
+    - '+.zenlesszonezero.com'
+    - '+.lol.qq.com'
+    - '+.riotgames.com'
+    - '+.leagueoflegends.com'
+    - '+.pvp.qq.com'
+    - '+.dnf.qq.com'
+    - '+.tencent.com'
+    - '+.wegame.com'
