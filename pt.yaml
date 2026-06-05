@@ -1,4 +1,5 @@
 # 规则设置 自定义规则
+payload:
   - DOMAIN,004430.xyz
   - DOMAIN,021912.xyz
   - DOMAIN,1337.abcvg.info
