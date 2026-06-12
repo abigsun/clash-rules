@@ -1,21 +1,21 @@
 # for QX
-payload:
+
 # > Binane
-  - DOMAIN-SUFFIX,binance.com
-  - DOMAIN-SUFFIX,binance.info
-  - DOMAIN-SUFFIX,bnbstatic.com
-  - DOMAIN-SUFFIX,bntrace.com
-  - DOMAIN-SUFFIX,yingwangtech.cloud
+HOST-SUFFIX,binance.com,trade
+HOST-SUFFIX,,binance.info,trade
+HOST-SUFFIX,,bnbstatic.com,trade
+HOST-SUFFIX,,bntrace.com,trade
+HOST-SUFFIX,,yingwangtech.cloud,trade
 # > OKX
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+HOST-SUFFIX,,okx.com,trade
+HOST-SUFFIX,,okx.com.cdn.cloudflare.net,trade
 # > Bybit
-  - DOMAIN-SUFFIX,byabcde.com
-  - DOMAIN-SUFFIX,bybdc6.com
-  - DOMAIN-SUFFIX,bybit.com
-  - DOMAIN-SUFFIX,bybitglobal.com
-  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+HOST-SUFFIX,,byabcde.com,trade
+HOST-SUFFIX,,bybdc6.com,trade
+HOST-SUFFIX,,bybit.com,trade
+HOST-SUFFIX,,bybitglobal.com,trade
+HOST-SUFFIX,,ffbbbdc6d3c353211fe2ba39c9f744cd.com,trade
 # > bitget
-  - DOMAIN-SUFFIX,bitget.com
+HOST-SUFFIX,,bitget.com,trade
 # > neverless
-  - DOMAIN-SUFFIX,neverless.com
+HOST-SUFFIX,,neverless.com,trade
