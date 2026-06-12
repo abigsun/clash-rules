@@ -1,4 +1,5 @@
 # for QX
+payload:
 # > Binane
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,binance.info
